@@ -1,20 +1,15 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
-import Project from "./components/Project";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
-import "./App.css";
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <Hero />
-      <Project />
-      <Contact />
-      <Footer />
-    </>
+    </div>
   );
 }
 
 export default App;
+
+

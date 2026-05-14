@@ -1,16 +1,14 @@
-import myPhoto from '../assets/myPhoto.png';
-
 function Hero() {
   return (
-    <section className="hero">
-      <div>
-        <h1>Hi, I'm Tatiana Mccray</h1>
-        <p>I'm a passionate web developer specializing in React and Node.js. I love creating beautiful and functional websites.</p>
-        <a href="#projects" className="btn">View My Projects</a>
-      </div>
-      <div>
-        <img src={myPhoto} alt="Tatiana Mccray" />
-      </div>
+    <section className="hero" id="home">
+      <h1>Hi, I'm Tatiana Mccray</h1>
+      <h2>Front End Developer</h2>
+      <p>I build clean, responsive websites and React Application with a focus on
+        usability, accessibility, and real-world user needs.
+      </p>
+
+      <button>View Projects</button>
+      <button>Contact Me</button>
     </section>
   );
 }
