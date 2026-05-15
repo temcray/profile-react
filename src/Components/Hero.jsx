@@ -1,8 +1,9 @@
 function Hero() {
   return (
     <section className="hero" id="home">
-      <h1>Hi, I'm Tatiana Mccray</h1>
-      <h2>Front End Developer</h2>
+      <h1>Hi, I'm Tatiana McCray</h1>
+      <h2>Front-End Web Developer</h2>
+      
       <p>I build clean, responsive websites and React Application with a focus on
         usability, accessibility, and real-world user needs.
       </p>
